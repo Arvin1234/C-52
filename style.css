@@ -1,0 +1,41 @@
+h1{
+    color:#fafbfc;
+}
+p{
+    color:#000000
+}
+p,h1{
+    text-align: center;
+    color:#ffffff;
+}
+body{
+    background-image: url("background.jpg");
+}
+img{
+    border-radius: 20%;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+.menu a{
+    margin-left: 40px;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.55;
+}
